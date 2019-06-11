@@ -274,6 +274,7 @@ public class MarqueeView<T> extends ViewFlipper {
             textView.setTextSize(textSize);
             textView.setIncludeFontPadding(true);
             textView.setSingleLine(singleLine);
+			textView.setEllipsize(TruncateAt.END);
             if (singleLine) {
                 textView.setMaxLines(1);
                 textView.setEllipsize(TextUtils.TruncateAt.END);
